@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import initDB from "./config/db";
 import { userRoutes } from "./modules/users/user.routes";
+import { vehicleRoutes } from "./modules/vehicles/vehicle.routes";
 
 const app = express();
 
@@ -11,6 +12,9 @@ initDB();
 
 // ---------------User------------>
 app.use("/api/v1", userRoutes)
+
+// --------------Vehicles---------------->
+app.use("/api/v1/vehicles",vehicleRoutes)
 
 // root router
 app.get("/", (req: Request, res: Response) => {

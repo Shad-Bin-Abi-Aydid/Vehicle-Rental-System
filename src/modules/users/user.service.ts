@@ -38,7 +38,7 @@ const updateUser = async (
         `,
     [name, email, phone, role, id],
   );
-  delete result.rows[0].password;
+  
   return result;
 };
 
