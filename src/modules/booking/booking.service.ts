@@ -43,6 +43,9 @@ return{
 };
 };
 
+// Get bookings
+
+
 export const bookingServices = {
   createBooking,
 };
