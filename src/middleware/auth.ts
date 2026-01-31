@@ -23,6 +23,9 @@ const auth = (...roles: ("admin" | "customer")[]) => {
         throw new Error("User not found");
     }
 
+    req.user = decoded;
+
+
     // if user not the approprite role
     if(roles.length && !roles.includes(decoded.role)){
         throw new Error("You are not authorized");
