@@ -1,6 +1,8 @@
 # 🚗 Vehicle Rental Management System
 
-> **Live API:** [https://vehicle-rental-system-three-alpha.vercel.app/]
+> **Live API:** [https://vehicle-rental-system-three-alpha.vercel.app/](https://vehicle-rental-system-three-alpha.vercel.app/)
+
+> **API Documentation:** [https://documenter.getpostman.com/view/51503501/2sBXqJLM9H](https://documenter.getpostman.com/view/51503501/2sBXqJLM9H)
 
 A high-performance Backend API built with **Node.js**, **TypeScript**, and **PostgreSQL**...
 
@@ -44,3 +46,4 @@ src/
 ├── routes/         # API endpoint definitions
 ├── services/       # Business logic & SQL Queries
 └── app.ts          # Express application setup
+```
